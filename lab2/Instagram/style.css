@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #111418, #0b0e11);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  min-height: 85vh;
+}
+
+.visual {
+  position: relative;
+}
+
+.visual img {
+  width: 550px;
+  height: auto;
+  display: block;
+}
+
+.login-area {
+  width: 320px;
+}
+
+.logo {
+  font-family: "Brush Script MT", cursive;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-area input {
+  width: 100%;
+  padding: 12px;
+  background: #121417;
+  border: 1px solid #2a2d32;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-area input::placeholder {
+  color: #8e8e8e;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.show-btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4f5dfb;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #2a2d32;
+}
+
+.divider p {
+  margin: 0 12px;
+}
+
+.fb-login a {
+  text-decoration: none;
+  color: #4f9cff;
+  font-weight: bold;
+}
+.fb-login a:hover {
+  text-decoration: underline;
+}
+
+.fb-logo {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-bottom: 4px;  
+}
+
+.fb-login {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: #4f9cff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #c7c7c7;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.signup {
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #4f9cff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #8e8e8e;
+  padding: 20px;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
