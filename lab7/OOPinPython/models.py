@@ -1,6 +1,5 @@
 
 class Animal:
-    """Base class representing a generic animal."""
 
     def __init__(self, name, age, species):
         self.name = name
@@ -18,7 +17,7 @@ class Animal:
 
 
 class Dog(Animal):
-    """Child class representing a Dog, inherits from Animal."""
+    
 
     def __init__(self, name, age, breed):
         super().__init__(name, age, species="Dog")
@@ -29,7 +28,7 @@ class Dog(Animal):
         return f"{self.name} says: Woof! Woof!"
 
     def learn_trick(self, trick):
-        """Unique method: teach the dog a trick."""
+   
         self.tricks.append(trick)
         return f"{self.name} learned a new trick: {trick}!"
 
@@ -43,7 +42,7 @@ class Dog(Animal):
 
 
 class Cat(Animal):
-    """Child class representing a Cat, inherits from Animal."""
+  
 
     def __init__(self, name, age, indoor):
         super().__init__(name, age, species="Cat")
@@ -54,7 +53,7 @@ class Cat(Animal):
         return f"{self.name} says: Meow~ Purrrr..."
 
     def lose_life(self):
-        """Unique method: cats have 9 lives."""
+      
         if self.lives_remaining > 0:
             self.lives_remaining -= 1
             return f"{self.name} lost a life! Lives remaining: {self.lives_remaining}"
